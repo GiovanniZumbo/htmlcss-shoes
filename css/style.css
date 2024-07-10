@@ -9,7 +9,12 @@
 /* Generics */
 
 body {
-    font-family: sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+.display {
+    height: 100vh;
 }
 
 /* Utilities */
@@ -18,3 +23,25 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.green {
+    color: #008000;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+h1 {}
