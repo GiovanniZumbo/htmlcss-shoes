@@ -6,16 +6,26 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+}
+
 /* Generics */
 
 body {
     font-family: 'Rubik Mono One', sans-serif;
+    position: relative;
 }
 
 
 .display {
     height: 100vh;
     position: relative;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
 }
 
 /* Utilities */
@@ -64,4 +74,29 @@ h1 {
     font-size: 50px;
     font-weight: bolder;
     text-align: center;
+}
+
+/* top menu */
+
+.top-menu {
+    position: fixed;
+    top: 30px;
+    right: 10px;
+}
+
+.top-menu a {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 15px;
+    box-shadow: 0 2px 2px #aaa8a8;
+
+    text-decoration: none;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
 }
